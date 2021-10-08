@@ -26,31 +26,31 @@ function useWindowSize() {
 }
 
 function App() {
-  let width2 = window.innerWidth;
-  if (width2 < 600) {
-    return (
-      <div className="App">
-        <Navbar />
-        <Main />
-        <div className="qbar">{<QuestionBar />}</div>
-        <About />
-        <Skills />
-        <Projects />
-        <Footer />
-      </div>
-    );
-  } else {
-    return (
-      <div className="App">
-        <Navbar />
-        <Main />
-        <About />
-        <Skills />
-        <Projects />
-        <Footer />
-      </div>
-    );
-  }
+  // let width2 = window.innerWidth;
+  // if (width2 < 600) {
+  //   return (
+  //     <div className="App">
+  //       <Navbar />
+  //       <Main />
+  //       <div className="qbar">{<QuestionBar />}</div>
+  //       <About />
+  //       <Skills />
+  //       <Projects />
+  //       <Footer />
+  //     </div>
+  //   );
+  // } else {
+  return (
+    <div className="App">
+      <Navbar />
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
+    </div>
+  );
 }
+// }
 
 export default App;

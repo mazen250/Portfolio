@@ -80,10 +80,6 @@
   }
 }
 @media only screen and (max-width: 450px) {
-  .mainContainer .rightSide {
-    /* display: none; */
-  }
-
   .mainContainer .leftSide .textOne {
     font-size: 1.3em;
     width: 100%;
