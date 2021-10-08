@@ -1,0 +1,35 @@
+.projectsContainer h1 {
+  color: goldenrod;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.moreProjectBtn {
+  width: 15%;
+  height: 33px;
+  background-color: #2d2e33;
+  color: goldenrod;
+  border: 1px solid #2d2e33;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1100px) {
+  .projectCard {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .projectCard {
+    flex-direction: column;
+  }
+  .moreProjectBtn {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+}

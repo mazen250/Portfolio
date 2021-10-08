@@ -1,0 +1,38 @@
+.QuestionBarContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 40vw;
+  height: 20vh;
+  background-color: rgba(6, 6, 27, 0.6);
+  color: goldenrod;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 10px;
+}
+.QuestionBarContainer:hover {
+  transform: scale(1.05);
+}
+.QuestionBarContainer h1 {
+  font-size: 18px;
+}
+.QuestionBarContainer h3 {
+  font-size: 14px;
+}
+.QuestionBarContainer button {
+  width: 100px;
+  background-color: rgba(6, 6, 27, 0.5);
+  color: aliceblue;
+  border-radius: 20px;
+  border-color: rgba(6, 6, 27, 0.6);
+  margin: auto;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: all 0.5s;
+}
+.QuestionBarContainer button:hover {
+  transform: scale(1.1);
+}

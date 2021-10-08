@@ -1,0 +1,43 @@
+.skillsSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 800px) {
+  .skillsSectionContainer {
+    flex-direction: column;
+    width: 60%;
+  }
+}
+.skillsSectionContainer h3 {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: goldenrod;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 300px;
+}
+
+.progress-done {
+  background: linear-gradient(to left, #25265a, #4871e0);
+  box-shadow: 0 1px 1px -2px #e2c002, 0 1px 2px #ccb909;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 3s ease 0.7s;
+}

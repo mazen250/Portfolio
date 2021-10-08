@@ -1,0 +1,82 @@
+.aboutContainer {
+  width: 80%;
+  margin: auto;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+.profile {
+  width: 400px;
+  height: 400px;
+  border-radius: 4%;
+  background: url(../Pages/images/profile.jpg);
+  background-size: cover;
+  shape-outside: circle();
+  margin: 20px 20px 20px 20px;
+  /* box-shadow: 2px 2px rgba(102, 101, 101, 0.589); */
+}
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.aboutText h1 {
+  margin-bottom: 20px;
+  font-weight: 550;
+  color: goldenrod;
+}
+@media only screen and (max-width: 900px) {
+  .aboutContainer .aboutText {
+    width: 100%;
+  }
+  .aboutContainer {
+    flex-direction: column;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aboutContainer .aboutText {
+    width: 80%;
+  }
+  .aboutContainer {
+    flex-direction: column;
+    width: 90%;
+  }
+  .profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+  }
+  .aboutContainer .cvButt {
+    width: 50%;
+    font-size: 13px;
+  }
+}
+
+.cvButt {
+  width: 200px;
+  height: 5vh;
+  margin-top: 30px;
+  background-color: #a37b15;
+  border-color: rgba(141, 107, 20, 0.726);
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cvButt:hover {
+  background-color: #1a1c21;
+  border-color: #1a1c21;
+  transform: scale(1.1);
+}
