@@ -1,16 +1,8 @@
 import React from "react";
 import "../style/About.css";
 import Tilt from "react-parallax-tilt";
-import { Link } from "react-router-dom";
-import { saveAs } from "file-saver";
-function About() {
-  // const saveFile = () => {
-  //   saveAs(
-  //     "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
-  //     "example.pdf"
-  //   );
-  // };
 
+function About() {
   return (
     <div className="aboutContainer" id="about">
       {/* <div className="profile"></div> */}
@@ -20,12 +12,6 @@ function About() {
       <div className="aboutText">
         <h1>about me</h1>
         <p style={{ lineHeight: "23px" }}>
-          {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non ex
-          maxime neque cum voluptatibus illum corporis error molestias
-          perferendis, qui porro, doloribus dolorem. Tempora vero in ea
-          voluptatem quia recusandae voluptas ducimus nemo molestias,
-          repellendus, non asperiores sed nostrum totam adipisci aliquid ipsa
-          aliquam at fugiat odio excepturi! Optio. */}
           <div style={{ margin: "10px" }}>
             <h1 style={{ fontSize: "1.2rem" }}>MY Education</h1>
             <hr
