@@ -42,13 +42,13 @@
   width: 15vw;
   height: 7vh;
   margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #2d2e33;
   color: goldenrod;
 
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 1.4rem;
-  font-weight: 400;
+  font-weight: 300;
   transition: all 0.5s ease;
   cursor: pointer;
   border: 0px;
@@ -81,7 +81,7 @@
 }
 @media only screen and (max-width: 450px) {
   .mainContainer .leftSide .textOne {
-    font-size: 1.3em;
+    font-size: 1.4em;
     width: 100%;
   }
   .mainContainer h3 {
@@ -89,6 +89,8 @@
   }
   .mainContainer .contact-btn {
     width: 50vw;
+    height: 30px;
+    font-size: 18px;
   }
   .mainContainer {
     width: 100%;

@@ -6,7 +6,7 @@ function Project({ img, title, code }) {
       <img src={img} alt="name" className="projImg" />
 
       <h1 style={{ marginTop: "20px" }}>{title}</h1>
-      <a href={code} style={{ width: "90%" }} target="_blank">
+      <a href={code} style={{ width: "90%" }} target="_blank" rel="noreferrer">
         <button className="codeBtn">Source Code</button>
       </a>
     </div>

@@ -33,6 +33,19 @@
   font-weight: 550;
   color: goldenrod;
 }
+.aboutBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutBox h1 {
+  font-size: 1.4rem;
+}
+.aboutBox hr {
+  width: 200px;
+
+  background-color: black;
+}
 @media only screen and (max-width: 900px) {
   .aboutContainer .aboutText {
     width: 100%;
@@ -53,30 +66,9 @@
   .profile {
     width: 250px;
     height: 250px;
-    border-radius: 10%;
+    border-radius: 5%;
   }
-  .aboutContainer .cvButt {
-    width: 50%;
-    font-size: 13px;
+  .aboutBox h1 {
+    font-size: 1.3rem;
   }
-}
-
-.cvButt {
-  width: 200px;
-  height: 5vh;
-  margin-top: 30px;
-  background-color: #a37b15;
-  border-color: rgba(141, 107, 20, 0.726);
-  color: aliceblue;
-  border-radius: 10px;
-  font-size: 15px;
-  font-weight: 550;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.cvButt:hover {
-  background-color: #1a1c21;
-  border-color: #1a1c21;
-  transform: scale(1.1);
 }

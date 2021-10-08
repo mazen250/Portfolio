@@ -22,7 +22,14 @@ function Home() {
           i am a <span style={{ color: "goldenrod" }}>software developer</span>
         </h3>
         <ScrollIntoView selector="#contact">
-          <button className="contact-btn">get in touch</button>
+          <button
+            className="contact-btn"
+            style={{
+              fontWeight: "400",
+            }}
+          >
+            get in touch
+          </button>
         </ScrollIntoView>
       </div>
       <div className="rightSide">

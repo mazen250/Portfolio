@@ -6,7 +6,7 @@ function Navbar() {
     <div className="navContainer flex">
       <div className="linksContainer">
         <div className="navlinks">
-          <ul className="flex">
+          <ul>
             <li>home</li>
             <ScrollIntoView selector="#about">
               <li>about</li>

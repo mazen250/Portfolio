@@ -54,8 +54,16 @@
     width: 100%;
   }
   .navContainer .navlinks ul li {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 30px;
     margin-top: 10px;
+    margin-left: 20px;
+  }
+  #root > div > div.navContainer.flex > div > div > ul {
+    width: 100%;
+    margin-right: 40px;
+  }
+  #root > div > div.navContainer.flex > div > div > ul > div:nth-child(5) > li {
+    margin-right: 10px;
   }
 }

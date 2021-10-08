@@ -10,53 +10,31 @@ function About() {
         <div className="profile"></div>
       </Tilt>
       <div className="aboutText">
-        <h1>about me</h1>
-        <p style={{ lineHeight: "23px" }}>
-          <div style={{ margin: "10px" }}>
-            <h1 style={{ fontSize: "1.2rem" }}>MY Education</h1>
-            <hr
-              style={{
-                marginTop: "1px",
-                width: "50%",
-                margin: "auto",
-                marginBottom: "10px",
-              }}
-            />
-            studying at cairo university - software engineering department
-            (graduating in 2022)
-            <br /> graduated from futuresTech language school at 2017 grade:89%
-          </div>
-          <div style={{ margin: "10px" }}>
-            <h1 style={{ fontSize: "1.2rem" }}> Student Activities</h1>
-            <hr
-              style={{
-                marginTop: "10px",
-                marginBottom: "10px",
-                width: "50%",
-                margin: "auto",
-              }}
-            />
-            member at techsolve committee 2019
+        <div className="aboutBox">
+          <h1>Education</h1>
+          <hr />
+          <p>
+            Studying At Cairo University - Software Engineering Department
+            (Graduating In 2022)
+            <br /> Graduated From FuturesTech Language School At 2017 Grade:89%
+          </p>
+        </div>
+        <div className="aboutBox">
+          <h1>Additional Skills</h1>
+          <hr />
+          <p>
+            Language:English-Fluent
             <br />
-          </div>
-          <div style={{ margin: "10px" }}>
-            <h1 style={{ fontSize: "1.2rem" }}>additional skills</h1>
-            <hr
-              style={{
-                marginTop: "10px",
-                marginBottom: "10px",
-                width: "50%",
-                margin: "auto",
-              }}
-            />
-            communication skills - teamwork - languages [english (fluent) -
-            arabic(mother language)]
-          </div>
-        </p>
-
-        {/* <button className="cvButt" onClick={saveFile  }>
-          download cv
-        </button> */}
+            communication Skills
+            <br />
+            TeamWork
+          </p>
+        </div>
+        <div className="aboutBox">
+          <h1>Student Activities</h1>
+          <hr />
+          <p>Member at SCCI Student Activity 2019-2020 techsolve Committee</p>
+        </div>
       </div>
     </div>
   );

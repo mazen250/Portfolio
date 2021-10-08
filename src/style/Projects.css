@@ -11,13 +11,15 @@
   justify-content: flex-start;
 }
 .moreProjectBtn {
-  width: 15%;
-  height: 33px;
+  width: 25%;
+  height: 50px;
   background-color: #2d2e33;
   color: goldenrod;
   border: 1px solid #2d2e33;
   border-radius: 4px;
   cursor: pointer;
+  font-size: 17px;
+  font-weight: lighter;
 }
 @media only screen and (max-width: 1100px) {
   .projectCard {
@@ -29,7 +31,9 @@
     flex-direction: column;
   }
   .moreProjectBtn {
-    width: 60%;
+    width: 50%;
     margin-bottom: 20px;
+    height: 40px;
+    font-size: 17px;
   }
 }

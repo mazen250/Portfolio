@@ -27,6 +27,7 @@ input {
   height: 20px;
   border-radius: 5px;
   padding: 3px;
+  color: aliceblue;
 }
 ::placeholder {
   color: black;
@@ -36,12 +37,13 @@ textarea {
   width: 100%;
   border-radius: 5px;
   padding: 3px;
+  color: aliceblue;
 }
 .submitBtn {
   width: 50%;
   margin-top: 10px;
   text-align: center;
-  color: black;
+  color: goldenrod;
   height: 25px;
   background-color: rgb(58, 58, 58);
   border-color: rgb(58, 58, 58);
