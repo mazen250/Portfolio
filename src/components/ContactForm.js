@@ -32,7 +32,7 @@ function ContactForm() {
         <input type="text" name="name" placeholder={name} />
         <label>Email Address</label>
         <input type="text" name="user_email" placeholder={email} />
-        <label>Body of The Email</label>
+        <label>Email Body</label>
         <textarea name="message" rows="4" placeholder={message}></textarea>
         <input type="submit" value="send" className="submitBtn" />
       </form>
