@@ -29,7 +29,7 @@
 }
 
 .progress-done {
-  background: linear-gradient(to left, #25265a, #4871e0);
+  background: linear-gradient(to left, #0f0f13, #3b3c42);
   box-shadow: 0 1px 1px -2px #e2c002, 0 1px 2px #ccb909;
   border-radius: 20px;
   color: #fff;
