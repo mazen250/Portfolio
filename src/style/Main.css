@@ -43,12 +43,12 @@
   height: 7vh;
   margin-top: 30px;
   border-radius: 5px;
-  background-color: #2d2e33;
+  background-color: #151516;
   color: goldenrod;
 
   opacity: 0.8;
   font-size: 1.4rem;
-  font-weight: 300;
+  font-weight: lighter;
   transition: all 0.5s ease;
   cursor: pointer;
   border: 0px;
