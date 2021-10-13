@@ -6,7 +6,7 @@
   justify-content: center;
   width: 40vw;
   height: 30vh;
-  background-color: rgba(10, 10, 17, 0.6);
+  background-color: rgba(10, 10, 10, 0.5);
   color: goldenrod;
   border-radius: 20px;
   text-align: center;
@@ -27,7 +27,7 @@
   width: 100px;
   background-color: rgba(6, 6, 27, 0.5);
   color: aliceblue;
-  border-radius: 20px;
+  border-radius: 2px;
   border-color: rgba(6, 6, 27, 0.6);
   margin: auto;
   cursor: pointer;
