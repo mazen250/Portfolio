@@ -13,7 +13,7 @@ function Home() {
               text
                 .typeString("HI THERE!!")
                 .deleteAll()
-                .typeString("This Is Mazen Fayez")
+                .typeString("This Is Mazen")
                 .start();
             }}
           />

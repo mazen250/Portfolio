@@ -26,7 +26,7 @@ function Projects() {
         />
         <Project
           img={img3}
-          title="JS Calculator"
+          title="movie app"
           code="https://github.com/mazen250/React-Ram"
         />
       </div>
@@ -34,7 +34,7 @@ function Projects() {
         <div className="projectCard">
           <Project
             img={img4}
-            title="Software Engineering"
+            title="weather app"
             code="https://github.com/mazen250/React-Ram"
           />
           <Project
