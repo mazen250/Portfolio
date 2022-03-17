@@ -46,7 +46,7 @@ function Footer() {
                     <FacebookIcon className='icon' />
                 </a>
                 <a
-                    href="https://www.instagram.com/biscotti_egy/"
+                    href="https://www.instagram.com/mazenfayez/"
                     target="_blank" rel='noopener noreferrer'
                 >
                     <InstagramIcon className='icon' />
