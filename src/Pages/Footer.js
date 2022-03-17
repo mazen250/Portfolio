@@ -2,6 +2,13 @@ import React from "react";
 import ContactForm from "../components/ContactForm";
 import "../style/Footer.css";
 
+import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
+
+import TwitterIcon from "@material-ui/icons/Twitter";
+import WhatsappIcon from "@material-ui/icons/WhatsApp";
+import Githubicon from "@material-ui/icons/GitHub";
+
 function Footer() {
   return (
     <div className="footerContainer">
@@ -17,6 +24,36 @@ function Footer() {
       <div className="rightFooter">
         <ContactForm />
       </div>
+      <div className='footer'>
+            <div className="socialMedia">
+              
+                <a
+                    href='https://github.com/mazen250'
+                    target="_blank" rel='noopener noreferrer'
+                >
+                    <Githubicon className='icon' />
+                </a>
+                <a
+                    href='https://wa.me/01005785550'
+                    target="_blank" rel='noopener noreferrer'
+                >
+                    <WhatsappIcon className='icon' />
+                </a>
+                <a
+                    href='https://www.facebook.com/mazen.fayezmano/'
+                    target="_blank" rel='noopener noreferrer'
+                >
+                    <FacebookIcon className='icon' />
+                </a>
+                <a
+                    href="https://www.instagram.com/biscotti_egy/"
+                    target="_blank" rel='noopener noreferrer'
+                >
+                    <InstagramIcon className='icon' />
+                </a>
+            </div>
+            <p className="copyright">&copy; 2022 MAZEN.COM</p>
+        </div>
     </div>
   );
 }

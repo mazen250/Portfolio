@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "../style/Projects.css";
 import Project from "./Project";
-import img1 from "../images//p1.jpg";
-import img2 from "../images//p2.jpg";
-import img3 from "../images//p3.jpg";
-import img4 from "../images//p4.jpg";
+import social from "../images/social.png";
+import movie from "../images/movie.png";
+import weather from "../images/weather.png";
+import algo from "../images/algorithm.png";
+
 import img5 from "../images//p5.jpg";
 function Projects() {
   const [showMore, setShowMore] = useState(false);
@@ -15,32 +16,42 @@ function Projects() {
       <h1>Projects</h1>
       <div className="projectCard">
         <Project
-          img={img1}
-          title="RAM CONSTRUCTION"
-          code="https://github.com/mazen250/React-Ram"
+          img="https://firebasestorage.googleapis.com/v0/b/biscotti-88295.appspot.com/o/images%2Fsaymom-leao-UY5kkN44XQA-unsplash.jpg?alt=media&token=e05a2741-641c-4829-b397-ba9ab312567c"
+          title="BISCOTTI"
+          code="https://biscottii.herokuapp.com/home"
+          btnTitle="View Website"
+          tech="React, Node, Express, MongooseDB"
         />
         <Project
-          img={img2}
-          title="Biscotti"
-          code="https://github.com/mazen250/React-Ram"
+          img={social}
+          title="Social Media App"
+          tech="PHP, MYSQL, CSS, HTML"
+          code="https://github.com/mazen250/Social-Network-App-PHP-Mysql"
+          btnTitle="View Code"
         />
         <Project
-          img={img3}
+          img={movie}
           title="movie app"
-          code="https://github.com/mazen250/React-Ram"
+          code="https://movie-app-mazen.netlify.app/"
+          btnTitle="View Website"
+          tech="React"
         />
       </div>
       {showMore && (
         <div className="projectCard">
           <Project
-            img={img4}
+            img={weather}
             title="weather app"
-            code="https://github.com/mazen250/React-Ram"
+            tech='react, axios, css, html'
+            btnTitle="View code"
+            code="https://github.com/mazen250/React-Weather-App"
           />
           <Project
-            img={img5}
-            title="Java NotePad"
-            code="https://github.com/mazen250/React-Ram"
+            img={algo}
+            btnTitle="View Code"
+            tech='Java Algorithms'
+            title="Fuzzy Logic Java"
+            code="https://github.com/mazen250/Fuzzy-Logic-JAVA"
           />
         </div>
       )}

@@ -10,6 +10,7 @@ import QuestionBar from "./components/QuestionBar";
 import Skills from "../src/components/Skills";
 import Projects from "./components/Projects";
 
+
 function useWindowSize() {
   const [size, setSize] = useState([window.innerHeight, window.innerWidth]);
 
@@ -34,6 +35,7 @@ function App() {
         <Main />
         <div className="qbar">{<QuestionBar />}</div>
         <About />
+       
         <Skills />
         <Projects />
         <Footer />
@@ -45,6 +47,7 @@ function App() {
         <Navbar />
         <Main />
         <About />
+      
         <Skills />
         <Projects />
         <Footer />

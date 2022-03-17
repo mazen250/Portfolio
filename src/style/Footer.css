@@ -6,6 +6,7 @@
   background-color: rgb(24, 22, 22);
   height: 400px;
   margin-top: 80px;
+  flex-wrap: wrap;
 }
 
 .leftFooter {
@@ -16,16 +17,41 @@
 
   cursor: pointer;
 }
+
 .rightFooter {
   width: 50%;
   height: 100%;
 }
+
 .imgaa {
   width: 100%;
   height: 100%;
   background-image: url(../images/map.jpg);
   background-size: cover;
   background-position: center center;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+
+  background-color: rgba(5, 5, 5, 0.904);
+  color: rgb(211, 208, 203);
+
+}
+
+.footer .icon {
+  color: rgb(236, 229, 222);
+  width: 20px;
+}
+
+.socialMedia {
+  width: 50%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 800px) {
