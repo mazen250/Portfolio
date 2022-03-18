@@ -3,6 +3,7 @@ import "../style/Main.css";
 import Particles from "react-particles-js";
 import TypeWriter from "typewriter-effect";
 import ScrollIntoView from "react-scroll-into-view";
+import pdf from '../files/Mazen-Fayez-cv.pdf'
 function Home() {
   return (
     <div className="mainContainer">
@@ -21,7 +22,7 @@ function Home() {
         <h3>
           i am a <span style={{ color: "goldenrod" }}>software developer</span>
         </h3>
-        <ScrollIntoView selector="#contact">
+        {/* <ScrollIntoView selector="#contact">
           <button
             className="contact-btn"
             style={{
@@ -30,7 +31,8 @@ function Home() {
           >
             get in touch
           </button>
-        </ScrollIntoView>
+        </ScrollIntoView> */}
+        <a href={pdf} download='Mazen-Fayez-CV' className="mycv">DOWNLOAD CV</a>
       </div>
       <div className="rightSide">
         <Particles

@@ -34,7 +34,7 @@ function Footer() {
                     <Githubicon className='icon' />
                 </a>
                 <a
-                    href='https://wa.me/01005785550'
+                    href='https://wa.me/+201005785550'
                     target="_blank" rel='noopener noreferrer'
                 >
                     <WhatsappIcon className='icon' />
