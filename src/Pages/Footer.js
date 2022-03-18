@@ -4,7 +4,7 @@ import "../style/Footer.css";
 
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
-
+import LinkedIn from "@material-ui/icons/LinkedIn"
 import TwitterIcon from "@material-ui/icons/Twitter";
 import WhatsappIcon from "@material-ui/icons/WhatsApp";
 import Githubicon from "@material-ui/icons/GitHub";
@@ -40,10 +40,10 @@ function Footer() {
                     <WhatsappIcon className='icon' />
                 </a>
                 <a
-                    href='https://www.facebook.com/mazen.fayezmano/'
+                    href='https://www.linkedin.com/in/mazen-fayez-31b693152/'
                     target="_blank" rel='noopener noreferrer'
                 >
-                    <FacebookIcon className='icon' />
+                    <LinkedIn className='icon' />
                 </a>
                 <a
                     href="https://www.instagram.com/mazenfayez/"

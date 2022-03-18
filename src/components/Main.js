@@ -32,7 +32,7 @@ function Home() {
             get in touch
           </button>
         </ScrollIntoView> */}
-        <a href={pdf} download='Mazen-Fayez-CV' className="mycv">DOWNLOAD CV</a>
+        <a href={pdf} download='Mazen-Fayez-CV' className="mycv" target='_blank' rel="noreferrer">DOWNLOAD CV</a>
       </div>
       <div className="rightSide">
         <Particles

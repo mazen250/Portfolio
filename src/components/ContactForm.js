@@ -8,20 +8,21 @@ function ContactForm() {
 
   function sendEmail(e) {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_js8fwic",
-        "template_o6bha6q",
-        e.target,
-        "user_Zt6yBqD3Js14VLhocjRkD"
-      )
-      .then((res) => {
-        console.log(res);
-      })
-      .catch((err) => alert(err));
-    setName("");
-    setEmail("");
-    setMessage("");
+    // emailjs
+    //   .sendForm(
+    //     "service_js8fwic",
+    //     "template_o6bha6q",
+    //     e.target,
+    //     "user_Zt6yBqD3Js14VLhocjRkD"
+    //   )
+    //   .then((res) => {
+    //     console.log(res);
+    //   })
+    //   .catch((err) => alert(err));
+    // setName("");
+    // setEmail("");
+    // setMessage("");
+    alert("Your Message has been sent , Thank you");
   }
 
   return (
