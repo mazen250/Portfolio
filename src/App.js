@@ -10,6 +10,8 @@ import QuestionBar from "./components/QuestionBar";
 import Skills from "../src/components/Skills";
 import Projects from "./components/Projects";
 
+import FooterTwo from './components/FooterTwo.jsx'
+
 
 function useWindowSize() {
   const [size, setSize] = useState([window.innerHeight, window.innerWidth]);
@@ -38,7 +40,7 @@ function App() {
        
         <Skills />
         <Projects />
-        <Footer />
+        <FooterTwo />
       </div>
     );
   } else {
@@ -50,7 +52,7 @@ function App() {
       
         <Skills />
         <Projects />
-        <Footer />
+        <FooterTwo />
       </div>
     );
   }

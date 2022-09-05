@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-color: #0b0c0e;
+  background-color: #141414;
   color: aliceblue;
+  overflow-x: hidden;
 }
 body {
   margin: 0;

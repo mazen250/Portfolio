@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/Navbar.css";
 import ScrollIntoView from "react-scroll-into-view";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Navbar() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="navContainer flex">
-      <div className="linksContainer">
+      <div className="linksContainer" data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-anchor-easing="ease-in-out">
         <div className="navlinks">
           <ul>
             <li>home</li>

@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/Skills.css";
 import SkillsSection from "./SkillsSection.js";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Skills() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   // const skills = [
   //   {
   //     type: "Java",
@@ -28,9 +33,9 @@ function Skills() {
         <SkillsSection done={85} lang="ExpressJs" />
         <SkillsSection done={80} lang="MongoDB" />
         <SkillsSection done={80} lang="java" />
-        <SkillsSection done={65} lang="C++" />
-        <SkillsSection done={70} lang="Python" />
-        <SkillsSection done={75} lang="Linux Adminstration" />
+        <SkillsSection done={65} lang="Testing" />
+        <SkillsSection done={80} lang="Machine Learning" />
+        <SkillsSection done={85} lang="Problem Solivng" />
 
       </div>
     </div>

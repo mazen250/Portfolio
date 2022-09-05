@@ -1,0 +1,185 @@
+.footerContainer{
+    margin-top: 30px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+}
+.footerContainer p {
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.footer{
+    width: 50%;
+    height: 20vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-start;
+    margin: auto;
+    justify-content:space-around;
+}
+.copy {
+    font-size: 13px;
+    color: grey;
+}
+.copy span{
+    font-weight: bolder;
+}
+.footer h1{
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.footer .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .contact .mail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer .contact .mail a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    margin-left: 5px;
+    font-size: 13px;
+}
+.footer .contact .loc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer .contact .loc p {
+    margin-left: 5px;
+    color: rgb(197, 197, 197);
+    font-size: 12px;
+}
+.footer .contact .loc img{
+    padding-bottom: 20px;
+}
+.footer .soc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer .soc .bottunns{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    
+}
+.footer .soc .buttonn a {
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    margin-right: 20px;
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+}.footer .soc .buttonn a:hover{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .footer{
+        width: 100%;
+        height: 15vh;
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        margin: auto;
+        justify-content:space-around;
+    }
+    .copy {
+        font-size: 9px;
+        color: grey;
+    }
+    .copy span{
+        font-weight: bolder;
+    }
+    .footer h1{
+        font-weight: 300;
+        margin-bottom: 5px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .footer .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer .contact .mail{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer .contact .mail a {
+        text-decoration: none;
+        color: rgb(197, 197, 197);
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .footer .contact .loc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .footer .contact .loc p {
+        margin-left: 5px;
+        color: rgb(197, 197, 197);
+        font-size: 9px;
+    }
+    .footer .contact .loc img{
+        padding-bottom: 20px;
+        width: 10px;
+    }
+    .footer .soc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer .soc .bottunns{
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+        
+        justify-content: space-around;
+        margin-top: 5px;
+    }
+    .footer .soc .buttonn a {
+        text-decoration: none;
+        color: rgb(151, 151, 151);
+        margin-right: 10px;
+        
+        transition: all 0.5s ease-in-out;
+        font-size: 15px;
+    }.footer .soc .buttonn a:hover{
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 2000px){
+    .footerContainer{
+        width: 100%;
+        height: 15vh;
+        
+    }
+  }

@@ -9,6 +9,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  width: 80%;
+  margin: auto;
 }
 .moreProjectBtn {
   width: 25%;
@@ -35,5 +37,12 @@
     margin-bottom: 20px;
     height: 40px;
     font-size: 17px;
+  }
+  .check{
+    font-size: 12px !important;
+    width: 70%;
+    margin: auto;
+    font-weight: 300;
+    line-height: 1.7;
   }
 }

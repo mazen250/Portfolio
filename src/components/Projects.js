@@ -1,43 +1,50 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/Projects.css";
 import Project from "./Project";
-import social from "../images/social.png";
+import social from "../images/social.jpg";
 import movie from "../images/movie.png";
 import weather from "../images/weather.png";
 import algo from "../images/algorithm.png";
-
+import cookies from "../images/cookies.jpg";
+import machine from "../images/machine.png";
 import img5 from "../images//p5.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Projects() {
   const [showMore, setShowMore] = useState(false);
   const [showText, setShowText] = useState("more");
-
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="projectsContainer" id="projects">
       <h1>Projects</h1>
-      <div className="projectCard">
+      <div className="projectCard" >
         <Project
-          img="https://firebasestorage.googleapis.com/v0/b/biscotti-88295.appspot.com/o/images%2Fsaymom-leao-UY5kkN44XQA-unsplash.jpg?alt=media&token=e05a2741-641c-4829-b397-ba9ab312567c"
-          title="BISCOTTI"
+          img={cookies}
+          title="Cookies E-commerce website"
           code="https://biscottii.herokuapp.com/home"
           btnTitle="View Website"
-          tech="React, Node, Express, MongooseDB"
+          tech="an e-commerce website build with react for the front end and express and mongodb for backend ,with a dashboard to control the product and do any crud operation and add coupons and offers"
+         
+        />
+        <Project
+          img={machine}
+          title="Graduation Project"
+          tech="recruitment website using machine learning models like text analysis and recommendation model build with tensorflow and flask for api , react for front end ,express for backend and mongodb for database,graded with A+"
+          code="https://github.com/mazen250/grad"
+          btnTitle="View Code"
         />
         <Project
           img={social}
           title="Social Media App"
-          tech="PHP, MYSQL, CSS, HTML"
-          code="https://github.com/mazen250/Social-Network-App-PHP-Mysql"
-          btnTitle="View Code"
-        />
-        <Project
-          img={movie}
-          title="movie app"
           code="https://movie-app-mazen.netlify.app/"
-          btnTitle="View Website"
-          tech="React"
+          btnTitle="View Code"
+          tech="social media app with all facebook functionality like register and login add post , like , comment and start a chat with other user in a splitted page or at home page with a pop up modal, so maybe better than facebook 😒"
         />
       </div>
-      {showMore && (
+      {/* {showMore && (
         <div className="projectCard">
           <Project
             img={weather}
@@ -68,7 +75,23 @@ function Projects() {
         }}
       >
         show {showText} projects
-      </button>
+      </button> */}
+      <h3 className="check">
+        Check{" "}
+        <a
+          href="https://github.com/mazen250"
+          target="blank"
+          style={{
+            color: "white",
+            textDecoration: "none",
+            borderBottom: "2px solid white",
+            fontWeight: "bolder",
+          }}
+        >
+          github
+        </a>{" "}
+        account for more projects , new project coming soon!
+      </h3>
     </div>
   );
 }
