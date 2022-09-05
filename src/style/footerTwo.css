@@ -34,7 +34,7 @@
 .footer h1{
     font-weight: 300;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px !important;
 }
 .footer .contact{
     display: flex;
@@ -51,7 +51,7 @@
     text-decoration: none;
     color: rgb(197, 197, 197);
     margin-left: 5px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .footer .contact .loc{
     display: flex;
@@ -62,10 +62,10 @@
 .footer .contact .loc p {
     margin-left: 5px;
     color: rgb(197, 197, 197);
-    font-size: 12px;
+    font-size: 10px;
 }
 .footer .contact .loc img{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .footer .soc{
     display: flex;
